@@ -29,7 +29,7 @@ const Summary = () => {
       setSumm('zajebiście')
     }
 
-    if(score > 9) {
+    if(score >= 9) {
       setSumm('kozak mordo')
     }
   }
