@@ -29,7 +29,7 @@ const QuestionsMain = () => {
       </div>
       {start && <div className="questions-main__questions">
         {preparedQuestions.map((question, index) => {
-          return currentQuestion === index && <Question key={question.id} question={question} />
+          return currentQuestion === index && <Question key={question.id} question={question} index={index}/>
         })}
       </div>}
     </div>

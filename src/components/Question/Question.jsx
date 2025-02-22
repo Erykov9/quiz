@@ -3,7 +3,7 @@ import { useAppContext } from "../../context/AppContext";
 import { useNavigate } from "react-router";
 import "./question.css";
 
-const Question = ({ question }) => {
+const Question = ({ question, index }) => {
   const {
     setCurrentQuestion,
     currentQuestion,
@@ -65,6 +65,7 @@ const Question = ({ question }) => {
   return (
     <div className="question">
       <h4>{question.question}</h4>
+      <p>Pytanie {index + 1}/{preparedQuestions.length}</p>
       <h5>Pozostały czas: {time}s</h5>
       <div className="timer-bar" style={{ width: `${(time / 25) * 100}%` }}></div>
       <div className="question__answers">

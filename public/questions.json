@@ -318,6 +318,111 @@
     "answers": ["Antarktyda", "Australia", "Ameryka Południowa", "Afryka"],
     "correct": "Antarktyda",
     "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 46,
+    "question": "Jak nazywa się najdłuższa rzeka w Polsce?",
+    "answers": ["Odra", "Wisła", "Warta", "Bug"],
+    "correct": "Wisła",
+    "category": "polska"
+  },
+  {
+    "id": 47,
+    "question": "W którym roku Polska wstąpiła do Unii Europejskiej?",
+    "answers": ["1999", "2001", "2004", "2007"],
+    "correct": "2004",
+    "category": "polska"
+  },
+  {
+    "id": 48,
+    "question": "Który polski król był znany jako 'Wielki'?",
+    "answers": ["Kazimierz III", "Jan III Sobieski", "Zygmunt III Waza", "Bolesław Chrobry"],
+    "correct": "Kazimierz III",
+    "category": "polska"
+  },
+  {
+    "id": 49,
+    "question": "Jak nazywa się największe jezioro w Polsce?",
+    "answers": ["Jezioro Śniardwy", "Jezioro Mamry", "Jezioro Hańcza", "Jezioro Wigry"],
+    "correct": "Jezioro Śniardwy",
+    "category": "polska"
+  },
+  {
+    "id": 50,
+    "question": "Gdzie znajduje się najwyższy szczyt w Polsce?",
+    "answers": ["Tatry", "Beskidy", "Bieszczady", "Sudety"],
+    "correct": "Tatry",
+    "category": "polska"
+  },
+  {
+    "id": 51,
+    "question": "Jaki jest najstarszy uniwersytet w Polsce?",
+    "answers": ["Uniwersytet Jagielloński", "Uniwersytet Warszawski", "Politechnika Warszawska", "Uniwersytet Wrocławski"],
+    "correct": "Uniwersytet Jagielloński",
+    "category": "polska"
+  },
+  {
+    "id": 52,
+    "question": "Jakie miasto było pierwszą stolicą Polski?",
+    "answers": ["Warszawa", "Gniezno", "Kraków", "Poznań"],
+    "correct": "Gniezno",
+    "category": "polska"
+  },
+  {
+    "id": 53,
+    "question": "Który polski noblista napisał 'Chłopów'?",
+    "answers": ["Henryk Sienkiewicz", "Władysław Reymont", "Wisława Szymborska", "Czesław Miłosz"],
+    "correct": "Władysław Reymont",
+    "category": "polska"
+  },
+  {
+    "id": 54,
+    "question": "Jak nazywa się największy park narodowy w Polsce?",
+    "answers": ["Białowieski", "Biebrzański", "Tatrzański", "Kampinoski"],
+    "correct": "Biebrzański",
+    "category": "polska"
+  },
+  {
+    "id": 55,
+    "question": "W którym mieście znajduje się najstarsza kopalnia soli w Polsce?",
+    "answers": ["Wieliczka", "Bochnia", "Kłodawa", "Lubin"],
+    "correct": "Wieliczka",
+    "category": "polska"
+  },
+  {
+    "id": 56,
+    "question": "Jak nazywa się polska waluta?",
+    "answers": ["Złoty", "Korona", "Forint", "Euro"],
+    "correct": "Złoty",
+    "category": "polska"
+  },
+  {
+    "id": 57,
+    "question": "Która polska bitwa zatrzymała ekspansję Imperium Osmańskiego?",
+    "answers": ["Bitwa pod Grunwaldem", "Bitwa pod Chocimiem", "Bitwa pod Wiedniem", "Bitwa pod Warną"],
+    "correct": "Bitwa pod Wiedniem",
+    "category": "polska"
+  },
+  {
+    "id": 58,
+    "question": "Które miasto jest nazywane 'polską Wenecją'?",
+    "answers": ["Gdańsk", "Bydgoszcz", "Wrocław", "Toruń"],
+    "correct": "Wrocław",
+    "category": "polska"
+  },
+  {
+    "id": 59,
+    "question": "Jak nazywa się najsłynniejsza polska plaża?",
+    "answers": ["Plaża w Międzyzdrojach", "Plaża na Helu", "Plaża w Sopocie", "Plaża w Kołobrzegu"],
+    "correct": "Plaża w Sopocie",
+    "category": "polska"
+  },
+  {
+    "id": 60,
+    "question": "Który polski polityk pełnił funkcję przewodniczącego Rady Europejskiej?",
+    "answers": ["Lech Wałęsa", "Bronisław Komorowski", "Donald Tusk", "Aleksander Kwaśniewski"],
+    "correct": "Donald Tusk",
+    "category": "polska"
   }
 
 ]

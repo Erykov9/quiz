@@ -54,10 +54,22 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 10px rgba(0, 230, 118, 0.3);
+  margin: 2px;
 }
 
 .main-quiz__start button:hover {
   background: #00c853;
   box-shadow: 0 4px 15px rgba(0, 230, 118, 0.5);
   transform: scale(1.05);
+}
+
+.main-quiz__start .return-btn {
+  background-color: tomato;
+  box-shadow: 0 4px 10px rgba(255, 85, 0, 0.932);
+
+}
+
+.main-quiz__start .return-btn:hover {
+  background-color: tomato;
+  box-shadow: 0 4px 10px rgba(206, 72, 5, 0.932);
 }

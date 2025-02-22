@@ -18,14 +18,22 @@ const Main = () => {
     const questionsToPrepare = questionsLeft.length > 0 ? questionsLeft : [...questions]; 
 
     const shuffledQuestions = [...questionsToPrepare].sort(() => 0.5 - Math.random())
-    const prepareQuestions = shuffledQuestions.slice(0, 2)
-    const remainingQuestions = shuffledQuestions.slice(2)
+    const prepareQuestions = shuffledQuestions.slice(0, 12)
+    const remainingQuestions = shuffledQuestions.slice(12)
   
     setPreparedQuestions(prepareQuestions)
     setPrecomputedQuestions((prev) => [...prev, ...prepareQuestions])
     setQuestionsLeft(remainingQuestions)
     setGameStarted(true)
     navigate('/quiz')
+  }
+
+  const handleRestart = () => {
+    setGameStarted(false)
+    setPreparedQuestions([])
+    setPrecomputedQuestions([])
+    setQuestionsLeft(questions)
+    navigate(-1)
   }
 
   useEffect(() => {
@@ -49,6 +57,7 @@ const Main = () => {
       </div>
       <div className="main-quiz__start">
         <button onClick={() => handleStart()}>Start</button>
+        <button className="return-btn" onClick={handleRestart}>Restart</button>
       </div>
     </div>
   )
