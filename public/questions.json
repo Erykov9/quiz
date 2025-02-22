@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "question": "Która planeta jest najbliżej Słońca?",
+    "answers": ["Mars", "Wenus", "Merkury", "Jowisz"],
+    "correct": "Merkury",
+    "category": "astronomia"
+  },
+  {
+    "id": 2,
+    "question": "Ile kontynentów jest na Ziemi?",
+    "answers": ["5", "6", "7", "8"],
+    "correct": "7",
+    "category": "geografia"
+  },
+  {
+    "id": 3,
+    "question": "Kto namalował Mona Lisę?",
+    "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+    "correct": "Leonardo da Vinci",
+    "category": "sztuka"
+  },
+  {
+    "id": 4,
+    "question": "Który pierwiastek chemiczny ma symbol 'O'?",
+    "answers": ["Wodór", "Ołów", "Tlen", "Azot"],
+    "correct": "Tlen",
+    "category": "chemia"
+  },
+  {
+    "id": 5,
+    "question": "Z jakiego tekstu zasłynął Eldo a.k.a. Damek",
+    "answers": ["Ty rybo jebana", "Chuju złoty", "Pojebana akcja", "Walimy cipacza?"],
+    "correct": "Ty rybo jebana",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 6,
+    "question": "Jak Kasia nazywa Eryka (i odwrotnie)",
+    "answers": ["Debil jebany", "Paruwa", "Niedźwiedź", "Mordini"],
+    "correct": "Niedźwiedź",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 7,
+    "question": "Jak nazywała się ulica na której mieszkał Karol Hoffman",
+    "answers": ["Liściasta", "Ogrodowa", "Kwiatkowska", "Żółta"],
+    "correct": "Liściasta",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 8,
+    "question": "W którym roku powstał Piotrków Trybunalski",
+    "answers": ["1217", "1322", "1531", "1994"],
+    "correct": "1217",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 9,
+    "question": "Jaki jest kod pocztowy Piotrkowa Trybunalskiego",
+    "answers": ["97-300", "97-200", "97-400", "97-500"],
+    "correct": "97-300",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 10,
+    "question": "W jakim klubie gra Damian 'MURZYN' Procho",
+    "answers": ["Wisła Płock", "Lech Poznań", "Legia Warszawa", "Zagłębie Lublin"],
+    "correct": "Widzew Łódź",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 11,
+    "question": "Z kim, z poniżej wymienionych osób, spała mama Pniaka",
+    "answers": ["Krzysiek Sul", "Kuba Zagaj", "Natalia Fałek", "Karol Błaszczyk"],
+    "correct": "Karol Błaszczyk",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 12,
+    "question": "Jak nazywał się zespół, który zagrał na 18 Pniaka",
+    "answers": ["The Idiots", "The Doors", "Samogon", "The Welders"],
+    "correct": "The Welders",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 13,
+    "question": "Ile (około) mieszkanców ma Piotrków Trybunalski",
+    "answers": ["50 000", "70 000", "100 000", "130 000"],
+    "correct": "70 000",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 14,
+    "question": "Jak nazywa się największe jezioro w Polsce",
+    "answers": ["Jezioro Białe", "Jezioro Morskie Oko", "Jezioro Śniardwy", "Jezioro Czarne"],
+    "correct": "Jezioro Śniardwy",
+    "category": "geografia"
+  },
+  {
+    "id": 15,
+    "question": "Która z wymienionych planet jest największa",
+    "answers": ["Mars", "Wenus", "Saturn", "Jowisz"],
+    "correct": "Jowisz",
+    "category": "astronomia"
+  },
+  {
+    "id": 16,
+    "question": "Który z wymienionych pierwiastków chemicznych jest gazem",
+    "answers": ["Węgiel", "Tlen", "Hel", "Sód"],
+    "correct": "Hel",
+    "category": "chemia"
+  },
+  {
+    "id": 17,
+    "question": "Który z wymienionych malarzy był Polakiem",
+    "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Jan Matejko"],
+    "correct": "Jan Matejko",
+    "category": "sztuka"
+  },
+  {
+    "id": 18,
+    "question": "Który z wymienionych kontynentów jest największy",
+    "answers": ["Afryka", "Ameryka Południowa", "Azja", "Europa"],
+    "correct": "Azja",
+    "category": "geografia"
+  },
+  {
+    "id": 19,
+    "question": "Który z wymienionych pierwiastków chemicznych jest najlżejszy",
+    "answers": ["Wodór", "Hel", "Azot", "Tlen"],
+    "correct": "Wodór",
+    "category": "chemia"
+  },
+  {
+    "id": 20,
+    "question": "Który z wymienionych pierwiastków chemicznych jest najcięższy",
+    "answers": ["Ołów", "Uran", "Rtęć", "Uran"],
+    "correct": "Uran",
+    "category": "chemia"
+  },
+  {
+    "id": 21,
+    "question": "Żona Bartka Lalka zagrała w teledysku dla znanego rapera. Kto to był?",
+    "answers": ["Oki", "Quebonafide", "Taco Hemingway", "Tede"],
+    "correct": "Tede",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 22,
+    "question": "Jakie imię nosi Jasiek",
+    "answers": ["Aleksandra", "Olga", "Oliwia", "Martyna"],
+    "correct": "Olga",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 23,
+    "question": "Jak nazywa się supermasywna czarna dziura w centrum Drogi Mlecznej",
+    "answers": ["Sagittarius A", "Messier 87", "Cygnus X-1", "V404 Cygni"],
+    "correct": "Sagittarius A",
+    "category": "astronomia"
+  },
+  {
+    "id": 24,
+    "question": "Ile zębów stałych ma człowiek",
+    "answers": ["45", "30", "32", "34"],
+    "correct": "32",
+    "category": "biologia"
+  },
+  {
+    "id": 25,
+    "question": "Ile oddechów codziennie wykonuje człowiek",
+    "answers": ["1000", "10 000", "20 000", "30 000"],
+    "correct": "20 000",
+    "category": "biologia"
+  },
+  {
+    "id": 26,
+    "question": "Ile kart posiada klasyczna talia (bez jokerów)",
+    "answers": ["52", "54", "56", "58"],
+    "correct": "52",
+    "category": "matematyka"
+  },
+  {
+    "id": 27,
+    "question": "Jak działa indukcja elektromagnetyczna",
+    "answers": ["Zmiana pola magnetycznego wytwarza pole elektryczne", "Zmiana pola elektrycznego wytwarza pole magnetyczne", "Zmiana pola magnetycznego wytwarza pole magnetyczne", "Zmiana pola elektrycznego wytwarza pole elektryczne"],
+    "correct": "Zmiana pola magnetycznego wytwarza pole elektryczne",
+    "category": "fizyka"
+  },
+  {
+    "id": 28,
+    "question": "Jakie jest największe jezioro na świecie",
+    "answers": ["Jezioro Bajkał", "Jezioro Wiktorii", "Morze Kaspijskie", "Jezioro Czad"],
+    "correct": "Morze Kaspijskie",
+    "category": "geografia"
+  },
+  {
+    "id": 29,
+    "question": "Która z planet jest widoczna gółym okiem",
+    "answers": ["Merkury", "Wenus", "Mars", "Jowisz"],
+    "correct": "Wenus",
+    "category": "astronomia"
+  },
+  {
+    "id": 30,
+    "question": "Które miasto jest uważane za największe pod względem liczby ludności?",
+    "answers": ["Tokio", "Nowy Jork", "Szanghaj", "Delhi"],
+    "correct": "Tokio",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 31,
+    "question": "Jak nazywa się największa pustynia na świecie?",
+    "answers": ["Sahara", "Gobi", "Antarktyczna", "Kalahari"],
+    "correct": "Antarktyczna",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 32,
+    "question": "Który kraj ma najwięcej wysp?",
+    "answers": ["Norwegia", "Kanada", "Szwecja", "Indonezja"],
+    "correct": "Szwecja",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 33,
+    "question": "Jaki jest najdłuższy most na świecie?",
+    "answers": [
+      "Most Vasco da Gama (Portugalia)",
+      "Most Akashi-Kaikyō (Japonia)",
+      "Danyang-Kunshan Grand Bridge (Chiny)",
+      "Most Golden Gate (USA)"
+    ],
+    "correct": "Danyang-Kunshan Grand Bridge (Chiny)",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 34,
+    "question": "W którym roku zbudowano Wieżę Eiffla?",
+    "answers": ["1850", "1889", "1901", "1923"],
+    "correct": "1889",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 35,
+    "question": "Jak nazywa się najgłębszy punkt na Ziemi?",
+    "answers": ["Rów Filipiński", "Rów Mariański", "Kanion Colca", "Jezioro Bajkał"],
+    "correct": "Rów Mariański",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 36,
+    "question": "Który kraj jako pierwszy zalegalizował małżeństwa jednopłciowe?",
+    "answers": ["USA", "Holandia", "Kanada", "Niemcy"],
+    "correct": "Holandia",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 37,
+    "question": "Jakie jest najczęściej używane słowo na świecie?",
+    "answers": ["OK", "Hello", "Thanks", "Love"],
+    "correct": "OK",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 38,
+    "question": "Jaki jest najbardziej rozpowszechniony język na świecie pod względem liczby native speakerów?",
+    "answers": ["Angielski", "Hiszpański", "Mandaryński", "Hindi"],
+    "correct": "Mandaryński",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 39,
+    "question": "Które miasto jest znane jako 'Wieczne Miasto'?",
+    "answers": ["Ateny", "Paryż", "Rzym", "Londyn"],
+    "correct": "Rzym",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 40,
+    "question": "Jak nazywa się największy aktywny wulkan na świecie?",
+    "answers": ["Kilimandżaro", "Mauna Loa", "Etna", "Fudżi"],
+    "correct": "Mauna Loa",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 41,
+    "question": "Która z podanych walut jest najstarsza?",
+    "answers": ["Dolar amerykański", "Funt brytyjski", "Jen japoński", "Euro"],
+    "correct": "Funt brytyjski",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 42,
+    "question": "Jaki procent powierzchni Ziemi pokrywają oceany?",
+    "answers": ["50%", "60%", "70%", "80%"],
+    "correct": "70%",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 43,
+    "question": "Który z poniższych krajów NIE ma dostępu do morza?",
+    "answers": ["Szwajcaria", "Boliwia", "Mongolia", "Wszystkie powyższe"],
+    "correct": "Wszystkie powyższe",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 44,
+    "question": "Które państwo posiada największą liczbę sąsiadujących krajów?",
+    "answers": ["Rosja", "Chiny", "Brazylia", "Niemcy"],
+    "correct": "Chiny",
+    "category": "ciekawostki ze świata"
+  },
+  {
+    "id": 45,
+    "question": "Który kontynent jest najmniej zaludniony?",
+    "answers": ["Antarktyda", "Australia", "Ameryka Południowa", "Afryka"],
+    "correct": "Antarktyda",
+    "category": "ciekawostki ze świata"
+  }
+
+]
