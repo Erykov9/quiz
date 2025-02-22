@@ -12,6 +12,7 @@ const AppProvider = ({children}) => {
   const [preparedQuestions, setPreparedQuestions] = useState([])
   const [precomputedQuestions, setPrecomputedQuestions] = useState([])
   const [questionsLeft, setQuestionsLeft] = useState([])
+  const [answeredQuestions, setAnsweredQuestions] = useState([])
 
   const [answers, setAnswers] = useState([])
   const [currentQuestion, setCurrentQuestion] = useState(0)
@@ -39,7 +40,9 @@ const AppProvider = ({children}) => {
         precomputedQuestions,
         setPrecomputedQuestions,
         questionsLeft,
-        setQuestionsLeft
+        setQuestionsLeft,
+        answeredQuestions,
+        setAnsweredQuestions
       }}>
       {children}
     </AppContext.Provider>

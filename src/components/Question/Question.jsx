@@ -10,6 +10,7 @@ const Question = ({ question, index }) => {
     setScore,
     setGameOver,
     preparedQuestions,
+    setAnsweredQuestions,
   } = useAppContext();
   const navigate = useNavigate();
 
@@ -36,16 +37,22 @@ const Question = ({ question, index }) => {
     goToNextQuestion();
   };
 
-  const handleAnswer = (answer) => {
+  const handleAnswer = (answer, question) => {
     if (disableAnswers) return;
 
     setDisableAnswers(true);
     setSelectedAnswer(answer);
+    const answ = {
+      ...question,
+      isCorrect: false,
+      correctAnswer: answer,
+    }
 
     if (answer === question.correct) {
       setScore((prevScore) => prevScore + 1);
+      answ.isCorrect = true
     }
-
+    setAnsweredQuestions((prev) => [...prev, answ]);
     goToNextQuestion();
   };
 
@@ -65,6 +72,7 @@ const Question = ({ question, index }) => {
   return (
     <div className="question">
       <h4>{question.question}</h4>
+      <h5>Kategoria: {question.category.toUpperCase()}</h5>
       <p>Pytanie {index + 1}/{preparedQuestions.length}</p>
       <h5>Pozostały czas: {time}s</h5>
       <div className="timer-bar" style={{ width: `${(time / 25) * 100}%` }}></div>
@@ -79,7 +87,7 @@ const Question = ({ question, index }) => {
                   : "wrong"
                 : ""
             }`}
-            onClick={() => handleAnswer(answer)}
+            onClick={() => handleAnswer(answer, question)}
           >
             {answer}
           </div>

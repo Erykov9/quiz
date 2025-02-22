@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router'
 import './summary.css'
 
 const Summary = () => {
-  const {score, setScore} = useAppContext()
+  const {score, setScore, answeredQuestions, setAnsweredQuestions} = useAppContext()
   const [summ, setSumm] = useState('')
   const navigate = useNavigate()
 
@@ -39,6 +39,7 @@ const Summary = () => {
   })
 
   const handleNavigate = () => {
+    setAnsweredQuestions([])
     setScore(0)
     navigate('/')
   }
@@ -48,6 +49,14 @@ const Summary = () => {
       <h2>Uzyskany wynik to: {score}</h2>
       <h3>{summ}</h3>
       <button onClick={handleNavigate}>Powrót</button>
+      <div className="summary__answers">
+        <h3>Odpowiedzi:</h3>
+        <ul>
+          {answeredQuestions.map((question, index) => {
+            return <li key={index} className={question.isCorrect ? 'correct' : 'incorrect'}>{question.question} - {question.isCorrect ? 'Dobrze' : 'Źle'}<p>(twoja odpowiedź: {question.correctAnswer})</p> <p>prawidłowa odpowiedź: {question.correct}</p> </li>
+          })}
+        </ul>
+      </div>
     </div>
   )
 }

@@ -423,6 +423,76 @@
     "answers": ["Lech Wałęsa", "Bronisław Komorowski", "Donald Tusk", "Aleksander Kwaśniewski"],
     "correct": "Donald Tusk",
     "category": "polska"
+  },
+  {
+    "id": 61,
+    "question": "W którym województwie leży Piotrków Trybunalski?",
+    "answers": ["Śląskie", "Mazowieckie", "Łódzkie", "Wielkopolskie"],
+    "correct": "Łódzkie",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 62,
+    "question": "Który król Polski nadał Piotrkowowi prawa miejskie?",
+    "answers": ["Kazimierz Wielki", "Bolesław Chrobry", "Władysław Jagiełło", "Władysław II Łokietek"],
+    "correct": "Władysław II Łokietek",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 63,
+    "question": "Jaka rzeka przepływa przez Piotrków Trybunalski?",
+    "answers": ["Pilica", "Warta", "Luciąża", "Bzura"],
+    "correct": "Luciąża",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 64,
+    "question": "Jak nazywa się najbardziej znany zabytek Piotrkowa Trybunalskiego?",
+    "answers": ["Zamek Królewski", "Bazylika Archikatedralna", "Muzeum Okręgowe", "Pałac Trybunalski"],
+    "correct": "Zamek Królewski",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 65,
+    "question": "Z czego historycznie słynął Piotrków Trybunalski?",
+    "answers": ["Był siedzibą Trybunału Koronnego", "Był pierwszą stolicą Polski", "Znajdowała się tu pierwsza polska uczelnia", "Był miejscem podpisania Unii Lubelskiej"],
+    "correct": "Był siedzibą Trybunału Koronnego",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 66,
+    "question": "Jaki ważny dokument uchwalono w Piotrkowie Trybunalskim w XVI wieku?",
+    "answers": ["Konstytucję 3 Maja", "Przywilej Piotrkowski", "Unię Lubelską", "Statut Wiślicki"],
+    "correct": "Przywilej Piotrkowski",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 67,
+    "question": "Która znana polska produkcja filmowa była kręcona w Piotrkowie Trybunalskim?",
+    "answers": ["Czterej pancerni i pies", "Potop", "Ziemia obiecana", "Ogniem i mieczem"],
+    "correct": "Potop",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 68,
+    "question": "Jak nazywa się najstarsza świątynia w Piotrkowie Trybunalskim?",
+    "answers": ["Bazylika św. Jakuba", "Kościół św. Jana Chrzciciela", "Klasztor oo. Bernardynów", "Kościół św. Franciszka"],
+    "correct": "Bazylika św. Jakuba",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 69,
+    "question": "Które z poniższych miast jest najbliżej Piotrkowa Trybunalskiego?",
+    "answers": ["Łódź", "Częstochowa", "Radom", "Bełchatów"],
+    "correct": "Bełchatów",
+    "category": "piotrkuf"
+  },
+  {
+    "id": 70,
+    "question": "Który styl architektoniczny dominuje w Starym Mieście Piotrkowa Trybunalskiego?",
+    "answers": ["Gotyk", "Barok", "Renesans", "Klasycyzm"],
+    "correct": "Renesans",
+    "category": "piotrkuf"
   }
 
 ]
